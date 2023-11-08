@@ -1,0 +1,77 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: limegreen;
+}
+a{
+    text-decoration: none;
+}
+.hero{
+    text-align: center;
+    border: 2px solid white;
+}
+.product{
+    text-align: center;
+}
+#nav{
+    background-color: darkgreen;
+    color: grey;
+    overflow: auto;
+    margin: 0;
+    padding: 0;
+}
+#nav a{
+    color: black;
+}
+#nav h1{
+    float: left;
+    padding-top: 20px;
+}
+#nav ul{
+    list-style: none;
+    float: right;
+}
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    display: inline-block;
+    padding: 20px;
+    transition: 0.5s;
+}
+#nav ul li a:hover, #nav ul li a.current {
+    background-color: black;
+    color: #f4f4f4;
+    border-radius: 50px;
+}
+.continer{
+    max-width: 1110px;
+    margin: auto;
+}
+#logo:hover{
+    color: gold;
+}
+#foot{
+    background-color: darkgreen;
+    text-align: center;
+}
+#foot a{
+    color: black;
+}
+#foot a:hover{
+    color: white;
+}
+ul{
+    list-style-type: none;
+}
+img{
+    width: 798px; 
+    height: 474px;
+    transition: 0.5s;
+}
+img:hover{
+    width: 900px;
+    height: 600px;
+}
